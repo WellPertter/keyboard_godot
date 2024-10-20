@@ -1,6 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727914336
-export_presets.cfg::TextFile::-1::1727905128::0::1::::<><>::
-icon.svg::CompressedTexture2D::5183956971228112149::1727905128::1727914338::1::::<><>::
-keybordNode2dMain.tscn::PackedScene::2098798384532062508::1727905128::0::1::::<><>::res://keybord_node_2d_main.gd
-keybord_node_2d_main.gd::GDScript::-1::1727905128::0::1::::<>Node2D<>::
+::res://::1729449405
+export_presets.cfg::TextFile::-1::1729442900::0::1::::<><>::
+icon.svg::CompressedTexture2D::5183956971228112149::1729442900::1729446645::1::::<><>::
+keybordNode2dMain.tscn::PackedScene::2098798384532062508::1729449071::0::1::::<><>::res://keybord_node_2d_main.gd
+keybord_node_2d_main.gd::GDScript::-1::1729448726::0::1::::<>Node2D<>::
+::res://Songs/::1729449401
+acerto.mp3::AudioStreamMP3::3901468700349988755::1729449313::1729449414::1::::<><>::
+Erro.mp3::AudioStreamMP3::1033267291455342590::1729449259::1729449414::1::::<><>::

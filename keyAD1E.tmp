@@ -1,0 +1,72 @@
+[gd_scene load_steps=2 format=3 uid="uid://45w5xt47pdu7"]
+
+[ext_resource type="Script" path="res://keybord_node_2d_main.gd" id="1_dk0cx"]
+
+[node name="Cena2DMain" type="Node2D"]
+position = Vector2(0, 1)
+script = ExtResource("1_dk0cx")
+
+[node name="NodeMain" type="Node" parent="."]
+
+[node name="LblScore" type="Label" parent="NodeMain"]
+offset_left = 342.0
+offset_top = 8.0
+offset_right = 449.0
+offset_bottom = 57.0
+text = "Score: 0"
+horizontal_alignment = 2
+
+[node name="ButtoneD" type="Button" parent="NodeMain"]
+editor_description = "
+"
+offset_left = 264.0
+offset_top = 174.0
+offset_right = 340.0
+offset_bottom = 233.0
+text = "D
+"
+
+[node name="ButtoneA" type="Button" parent="NodeMain"]
+editor_description = "
+"
+offset_left = 107.0
+offset_top = 173.0
+offset_right = 183.0
+offset_bottom = 232.0
+text = "A
+"
+
+[node name="ButtoneW" type="Button" parent="NodeMain"]
+editor_description = "
+"
+offset_left = 183.0
+offset_top = 113.0
+offset_right = 259.0
+offset_bottom = 172.0
+text = "W
+"
+
+[node name="ButtoneS" type="Button" parent="NodeMain"]
+editor_description = "
+"
+offset_left = 186.0
+offset_top = 174.0
+offset_right = 262.0
+offset_bottom = 233.0
+text = "S"
+
+[node name="ButtoneEsc" type="Button" parent="NodeMain"]
+editor_description = "
+"
+offset_left = 3.0
+offset_top = 3.0
+offset_right = 79.0
+offset_bottom = 62.0
+text = "Esc
+"
+
+[connection signal="pressed" from="NodeMain/ButtoneD" to="." method="_on_buttone_d_pressed"]
+[connection signal="pressed" from="NodeMain/ButtoneA" to="." method="_on_buttone_a_pressed"]
+[connection signal="pressed" from="NodeMain/ButtoneW" to="." method="_on_buttone_w_pressed"]
+[connection signal="pressed" from="NodeMain/ButtoneS" to="." method="_on_buttone_s_pressed"]
+[connection signal="pressed" from="NodeMain/ButtoneEsc" to="." method="_on_buttone_esc_pressed"]

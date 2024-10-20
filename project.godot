@@ -23,3 +23,8 @@ window/size/viewport_height=320
 [dotnet]
 
 project/assembly_name="TheKeyBoardGodot"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
